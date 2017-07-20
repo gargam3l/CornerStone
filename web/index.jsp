@@ -32,7 +32,7 @@
             <h1>CornerStone</h1>
         <h2>Login</h2>
         <input type="submit" value="Login as Guest" name="login-guest" />
-        <input type="submit" value="Login" name="Login" />
+        <input type="submit" value="Login" name="login" />
         
         </div>
 
