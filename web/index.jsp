@@ -14,31 +14,30 @@
     </head>
     <body>
         <div id="main">
-        <div id="header">
-            header
-        </div>
+        
 
         <div id="indexLeftColumn">
-            left column
-            <a href="#">
-        <img src="#" id="logo" alt="CornerStone logo">
-    </a>
+            
+           
 
-    <img src="#" id="logoText" alt="CornerStone">
+            <img src="cornerstone-logo-normal.jpeg" id="logoText" alt="CornerStone" height="150" width="200">
         </div>
 
         <div id="indexRightColumn">
-            right column
+            
             <h1>CornerStone</h1>
         <h2>Login</h2>
+        <form>
+        Username 
+        <input type="text" name="username"><br>
+        Password
+        <input type="text" name="password"><br>    
+        <input type="submit" value="Login" name="login" /><br>
         <input type="submit" value="Login as Guest" name="login-guest" />
-        <input type="submit" value="Login" name="login" />
-        
+         </form>
         </div>
 
-        <div id="footer">
-            footer
-        </div>
+        
     </div>
         
     </body>
