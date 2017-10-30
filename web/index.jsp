@@ -19,22 +19,25 @@
         <div id="indexLeftColumn">
             
            
-
+            
             <img src="cornerstone-logo-normal.jpeg" id="logo" alt="CornerStone">
+        
         </div>
 
         <div id="indexRightColumn">
             
             <h1>CornerStone</h1>
         
-            <div id="loginBox">
-            <h2>Login</h2>
-        
-        <form>
-        Username 
-        <input type="text" name="username"><br>
-        Password
-        <input type="password" name="password"><br>    
+        <div id="loginBox">
+        <div id="form-header">Login</div>
+        <form action="" method="post">
+         
+        <label for="username">Username
+            <input type="text" name="username">
+        </label>
+            <label for="password">Password
+        <input type="password" name="password">
+            </label>
         <input type="submit" value="Login" name="login" class="button1"/><br>
         <input type="submit" value="Login as Guest" name="login-guest" class="button1"/>
          </form>
