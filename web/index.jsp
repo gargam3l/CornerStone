@@ -14,38 +14,25 @@
     </head>
     <body>
         <div id="main">
-        
-
-        <div id="indexLeftColumn">
-            
-           
-            
-            <img src="cornerstone-logo-normal.jpeg" id="logoBig" alt="CornerStone">
-        
-        </div>
-
-        <div id="indexRightColumn">
-            
-            <h1>CornerStone</h1>
-        
-        <div id="loginBox">
-        <div id="form-header">Login</div>
-        <form action="home.jsp" method="post">
-         
-        <label for="username">Username
-            <input type="text" name="username">
-        </label>
-            <label for="password">Password
-        <input type="password" name="password">
-            </label>
-        <input type="submit" value="Login" name="login" class="button1"/><br>
-        <input type="submit" value="Login as Guest" name="login-guest" class="button1"/>
-         </form>
+           <div id="indexLeftColumn">
+                <img src class="logo" id="logoBig" alt="">
+            </div>
+           <div id="indexRightColumn">
+               <h1>CornerStone</h1>
+                <div id="loginBox">
+                    <div id="form-header">Login</div>
+                    <form action="home.jsp" method="post">
+                        <label for="username">Username
+                            <input type="text" name="username">
+                        </label>
+                        <label for="password">Password
+                            <input type="password" name="password">
+                        </label>
+                        <input type="submit" value="Login" name="login" class="button1"/><br>
+                        <input type="submit" value="Login as Guest" name="login-guest" class="button1"/>
+                    </form>
+                </div>
             </div>
         </div>
-
-        
-    </div>
-        
     </body>
 </html>

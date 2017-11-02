@@ -14,9 +14,7 @@
     </head>
     <body>
         <div id="main">
-        <div id="header">
-            header
-        </div>
+        
 
         <div id="indexLeftColumn">
             left column

@@ -90,14 +90,7 @@ body {
     margin-right: 10px;
 }
 
-#logoText {
-    float: left;
-    margin: 20px 0 0 70px;
-    /* font styles apply to text within alt tags */
-    font-family: 'American Typewriter', Courier, monospace;
-    font-size: 50px;
-    color: #333;
-}
+
 
 #footer {
     height: 60px;
@@ -194,4 +187,9 @@ li a:hover {
 li a.active {
     background-color: #4CAF50;
     color: white;
+}
+
+.myIncidentsGrid, .groupIncidentsGrid{
+    display:block;
+    margin-top: 30px;
 }
