@@ -15,23 +15,44 @@
     <body>
         <div id="main">
         <div id="header">
-            header
+            <div class="title">
+            <div class="image logo">
+            <%--<img src class="logo">
+            --%>
+            </div>
+            <div class="text">Corner Stone</div>
+            </div>
+            <div class="ribbon">
+                <div class="text">Logged in as: John Doe</div>
+                <div class="button">
+                    <form action="index.jsp" method="get">
+                    <input type="submit" value="Sign out">
+                    </form>
+                </div>
+            </div>
         </div>
 
         <div id="indexLeftColumn">
-            left column
+            <ul class="verticalMenu">
+                <li><a class="active" href="home.jsp">Home</a></li>
+                <li><a href="createIncident.jsp">Create Incident</a></li>
+                <li><a href="searchIncident.jsp">Search Incident</a></li>
+                <li><a href="admin.jsp">Admin</a></li>
+            </ul>
            
         </div>
 
         <div id="indexRightColumn">
-            right column
-            
-        
+            <div class="pageTitle">Home</div>
+            <div class="myIncidentsGrid">
+                [My incidents]
+            </div>
+            <div class="groupIncidentsGrid">
+                [Incidents in my group]
+            </div>
         </div>
 
-        <div id="footer">
-            footer
-        </div>
+        
     </div>
         
     </body>

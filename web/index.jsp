@@ -20,7 +20,7 @@
             
            
             
-            <img src="cornerstone-logo-normal.jpeg" id="logo" alt="CornerStone">
+            <img src="cornerstone-logo-normal.jpeg" id="logoBig" alt="CornerStone">
         
         </div>
 
@@ -30,7 +30,7 @@
         
         <div id="loginBox">
         <div id="form-header">Login</div>
-        <form action="" method="post">
+        <form action="home.jsp" method="post">
          
         <label for="username">Username
             <input type="text" name="username">
