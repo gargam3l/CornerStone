@@ -267,10 +267,13 @@ li#admin:hover .hoverdown-content{
     float:left;
 }
 
-.table{
+.worklog, .table, .modify-buttons, .admin-fields{
     clear: both;
     
     display:block;
     float:left;
 }
+
+
+
 

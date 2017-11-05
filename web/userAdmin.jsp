@@ -22,14 +22,14 @@
                     <li><a  href="createIncident.jsp">Create Incident</a></li>
                     <li><a  href="searchIncident.jsp">Search Incident</a></li>
                     <li id="admin"><a href="#">Admin</a>
-                    
+
                         <ul class="hoverdown-content expanded">
                             <li><a class="active" href="userAdmin.jsp">User management</a></li>
                             <li><a  href="groupAdmin.jsp">Group management</a></li>
                             <li><a   href="customerAdmin.jsp">Customer management</a></li>
                         </ul>
-                    
-                        </li>
+
+                    </li>
                 </ul>
                 <%--
                 <div class="verticalMenu">
@@ -45,14 +45,56 @@
                         </div>
                     </div>
                 </div>
-                                    --%>
+                --%>
 
             </div>
 
             <div id="indexRightColumn">
-                right column
+                <div class="table">
+                    [Results]
+                    <table>
+                        <tr>
+                            <td>data</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modify-buttons">
+                    <button value="">Add</button>
+                    <button value="">Modify</button>
+                    <button value="">Delete</button>
+                </div>
+                <div class="admin-fields">
+                <form>
+                    <div class="formitem">
+                        <input type="submit" value="Save" class="button1">
+                    </div>                            
+                    <div class="formitem">
+                        <label for="firstName">First name</label>
+                        <input type="text" id="firstName" name="firstName" />
+                    </div>
+                    <div class="formitem">
+                        <label for="lastName">Last name</label>
+                        <input type="text" id="lastName" name="lastName" />
+                    </div>
+                    <div class="formitem">
+                        <label for="phonenr">Phone nr</label>
+                        <input type="text" id="phonenr" name="phonenr" />
+                    </div>
+                    <div class="formitem">
+                        <label for="userMail">Email</label>
+                        <input type="text" id="userMail" name="userMail" />
+                    </div>
+                    <div class="formitem">
+                        <label for="role">Role</label>
+                        <input type="text" id="role" name="role" />
+                    </div>
+                    <div class="formitem">
+                        <label for="permission">Group permission</label>
+                        <input type="text" id="permission" name="permission" />
+                    </div>
 
-
+                </form>
+                    </div>
             </div>
 
 

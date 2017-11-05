@@ -31,27 +31,58 @@
                     
                         </li>
                 </ul>
-                <%--
-                <div class="verticalMenu">
-                    <a href="home.jsp">Home</a>
-                    <a  href="createIncident.jsp">Create Incident</a>
-                    <a  href="searchIncident.jsp">Search Incident</a>
-                    <div class="dropdown">
-                        <button class="dropbtn">Dropdown</button>    
-                        <div class="dropdown-content">
-                            <a class="active" href="admin.jsp">User management</a>
-                            <a class="active" href="admin.jsp">Group management</a>
-                            <a class="active" href="admin.jsp">Customer management</a>
-                        </div>
-                    </div>
-                </div>
-                                    --%>
-
+                
             </div>
 
             <div id="indexRightColumn">
-                right column
-
+                <div class="table">
+                            [Results]
+                            <table>
+                                <tr>
+                                    <td>data</td>
+                                </tr>
+                            </table>
+                        </div>
+                <div class="modify-buttons">
+                    <button value="">Add</button>
+                    <button value="">Modify</button>
+                    <button value="">Delete</button>
+                    </div>
+                <div class="admin-fields">
+                <form>
+                    <div class="formitem">
+                        <input type="submit" value="Save" class="button1">
+                    </div>                            
+                    <div class="formitem">
+                        <label for="firstName">First name</label>
+                        <input type="text" id="firstName" name="firstName" />
+                    </div>
+                    <div class="formitem">
+                        <label for="lastName">Last name</label>
+                        <input type="text" id="lastName" name="lastName" />
+                    </div>
+                    <div class="formitem">
+                        <label for="phonenr">Phone nr</label>
+                        <input type="text" id="phonenr" name="phonenr" />
+                    </div>
+                    <div class="formitem">
+                        <label for="userMail">Email</label>
+                        <input type="text" id="userMail" name="userMail" />
+                    </div>
+                    <div class="formitem">
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" />
+                    </div>
+                    <div class="formitem">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" name="address" />
+                    </div>
+                    <div class="formitem">
+                        <label for="country">Country</label>
+                        <input type="text" id="country" name="country" />
+                    </div>
+                </form>
+                    </div>    
 
             </div>
 
