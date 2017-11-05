@@ -20,13 +20,13 @@
                 <ul class="verticalMenu">
                     <li><a href="home.jsp">Home</a></li>
                     <li><a  href="createIncident.jsp">Create Incident</a></li>
-                    <li><a class="active" href="searchIncident.jsp">Search Incident</a></li>
+                    <li><a  href="searchIncident.jsp">Search Incident</a></li>
                     <li id="admin"><a href="#">Admin</a>
                     
-                        <ul class="hoverdown-content">
+                        <ul class="hoverdown-content expanded">
                             <li><a href="userAdmin.jsp">User management</a></li>
-                            <li><a  href="groupAdmin.jsp">Group management</a></li>
-                            <li><a  href="customerAdmin.jsp">Customer management</a></li>
+                            <li><a class="active" href="groupAdmin.jsp">Group management</a></li>
+                            <li><a   href="customerAdmin.jsp">Customer management</a></li>
                         </ul>
                     
                         </li>

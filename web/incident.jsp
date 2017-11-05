@@ -14,12 +14,15 @@
     </head>
     <body>
         <div id="main">
-        <div id="header">
-            header
-        </div>
+        
 
         <div id="indexLeftColumn">
-            left column
+            <ul class="verticalMenu">
+                    <li><a href="home.jsp">Home</a></li>
+                    <li><a class="active" href="createIncident.jsp">Create Incident</a></li>
+                    <li><a href="searchIncident.jsp">Search Incident</a></li>
+                    <li><a href="admin.jsp">Admin</a></li>
+                </ul>
           
         </div>
 

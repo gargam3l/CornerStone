@@ -19,9 +19,17 @@
             <div id="indexLeftColumn">
                 <ul class="verticalMenu">
                     <li><a href="home.jsp">Home</a></li>
-                    <li><a class="active" href="createIncident.jsp">Create Incident</a></li>
-                    <li><a href="searchIncident.jsp">Search Incident</a></li>
-                    <li><a href="admin.jsp">Admin</a></li>
+                    <li><a  class="active" href="createIncident.jsp">Create Incident</a></li>
+                    <li><a  href="searchIncident.jsp">Search Incident</a></li>
+                    <li id="admin"><a href="#">Admin</a>
+                    
+                        <ul class="hoverdown-content collapsed">
+                            <li><a href="userAdmin.jsp">User management</a></li>
+                            <li><a  href="groupAdmin.jsp">Group management</a></li>
+                            <li><a  href="customerAdmin.jsp">Customer management</a></li>
+                        </ul>
+                    
+                        </li>
                 </ul>
 
             </div>
@@ -104,7 +112,7 @@
                         </div>
                     </form>
                 </div>
-
+                
             </div>
 
 

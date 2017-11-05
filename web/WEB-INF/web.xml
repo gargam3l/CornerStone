@@ -10,10 +10,13 @@
             <description>header settings</description>
             <url-pattern>/createIncident.jsp</url-pattern>
             <url-pattern>/admin.jsp</url-pattern>
+            <url-pattern>/groupAdmin.jsp</url-pattern>
             <url-pattern>/home.jsp</url-pattern>
             <url-pattern>/WEB-INF/view/*</url-pattern>
+            <url-pattern>/userAdmin.jsp</url-pattern>
             <url-pattern>/incident.jsp</url-pattern>
             <url-pattern>/searchIncident.jsp</url-pattern>
+            <url-pattern>/customerAdmin.jsp</url-pattern>
             <include-prelude>/WEB-INF/jspf/header.jspf</include-prelude>
         </jsp-property-group>
     </jsp-config>

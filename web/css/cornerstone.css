@@ -180,6 +180,32 @@ li a.active {
     background-color: #4CAF50;
     color: white;
 }
+.hoverdown-content.collapsed{
+    display:none;
+}
+
+.hoverdown-content.expanded{
+    display:block;
+}
+
+.hoverdown-content {
+    /*display:none;*/
+    /*position: absolute;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    */
+}
+
+li#admin:hover .hoverdown-content{
+    display:block;
+}
 
 .myIncidentsGrid, .groupIncidentsGrid{
     display:block;
@@ -240,3 +266,11 @@ li a.active {
 .incident input[type=submit]{
     float:left;
 }
+
+.table{
+    clear: both;
+    
+    display:block;
+    float:left;
+}
+
