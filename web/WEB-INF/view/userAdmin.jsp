@@ -18,18 +18,17 @@
 
             <div id="indexLeftColumn">
                 <ul class="verticalMenu">
-                    <li><a href="home.jsp">Home</a></li>
-                    <li><a  href="createIncident.jsp">Create Incident</a></li>
-                    <li><a  href="searchIncident.jsp">Search Incident</a></li>
+                    <li><a  href="login">Home</a></li>
+                    <li><a  href="incident?page=create">Create Incident</a></li>
+                    <li><a  href="incident?page=create">Search Incident</a></li>
                     <li id="admin"><a href="#">Admin</a>
-
+                    
                         <ul class="hoverdown-content expanded">
-                            <li><a class="active" href="userAdmin.jsp">User management</a></li>
-                            <li><a  href="groupAdmin.jsp">Group management</a></li>
-                            <li><a   href="customerAdmin.jsp">Customer management</a></li>
+                            <li><a class="active" href="userAdmin">User management</a></li>
+                            <li><a  href="customerAdmin">Customer management</a></li>
                         </ul>
-
-                    </li>
+                    
+                        </li>
                 </ul>
                 <%--
                 <div class="verticalMenu">

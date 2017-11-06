@@ -7,11 +7,12 @@
     <servlet-mapping>
         <servlet-name>ControllerServlet</servlet-name>
         <url-pattern>/login</url-pattern>
-        <url-pattern>/incident</url-pattern>
         <url-pattern>/addWorklog</url-pattern>
-        <url-pattern>/sendMail</url-pattern>
-        <url-pattern>/userAdmin</url-pattern>
         <url-pattern>/customerAdmin</url-pattern>
+        <url-pattern>/sendMail</url-pattern>
+        <url-pattern>/signOut</url-pattern>
+        <url-pattern>/incident</url-pattern>
+        <url-pattern>/userAdmin</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

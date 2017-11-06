@@ -16,15 +16,14 @@
         <div id="main">
         <div id="indexLeftColumn">
             <ul class="verticalMenu">
-                    <li><a class="active" href="home.jsp">Home</a></li>
-                    <li><a  href="createIncident.jsp">Create Incident</a></li>
-                    <li><a  href="searchIncident.jsp">Search Incident</a></li>
+                    <li><a class="active" href="login">Home</a></li>
+                    <li><a  href="incident?page=create">Create Incident</a></li>
+                    <li><a  href="incident?page=search">Search Incident</a></li>
                     <li id="admin"><a href="#">Admin</a>
                     
                         <ul class="hoverdown-content collapsed">
-                            <li><a href="userAdmin.jsp">User management</a></li>
-                            <li><a  href="groupAdmin.jsp">Group management</a></li>
-                            <li><a  href="customerAdmin.jsp">Customer management</a></li>
+                            <li><a href="userAdmin">User management</a></li>
+                            <li><a  href="customerAdmin">Customer management</a></li>
                         </ul>
                     
                         </li>

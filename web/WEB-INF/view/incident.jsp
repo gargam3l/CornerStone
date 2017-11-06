@@ -1,6 +1,6 @@
 <%-- 
-    Document   : searchIncident
-    Created on : 2017.07.20., 6:07:19
+    Document   : incident
+    Created on : 2017.07.20., 6:09:07
     Author     : Kornel
 --%>
 
@@ -14,35 +14,32 @@
     </head>
     <body>
         <div id="main">
-        
 
-        <div id="indexLeftColumn">
-            <ul class="verticalMenu">
-                    <li><a href="home.jsp">Home</a></li>
-                    <li><a  href="createIncident.jsp">Create Incident</a></li>
-                    <li><a class="active" href="searchIncident.jsp">Search Incident</a></li>
+
+            <div id="indexLeftColumn">
+                <ul class="verticalMenu">
+                    <li><a  href="login">Home</a></li>
+                    <li><a  href="incident?page=create">Create Incident</a></li>
+                    <li><a  href="incident?page=search">Search Incident</a></li>
                     <li id="admin"><a href="#">Admin</a>
                     
                         <ul class="hoverdown-content collapsed">
-                            <li><a href="userAdmin.jsp">User management</a></li>
-                            <li><a  href="groupAdmin.jsp">Group management</a></li>
-                            <li><a  href="customerAdmin.jsp">Customer management</a></li>
+                            <li><a href="userAdmin">User management</a></li>
+                            <li><a  href="customerAdmin">Customer management</a></li>
                         </ul>
                     
                         </li>
                 </ul>
-           
-        </div>
+            </div>
 
-        <div id="indexRightColumn">
-            <div class="pageTitle">Search Incident</div>
+            <div id="indexRightColumn">
                 <div class="incident">
                     <form>
                         <div class="formitem">
-                                <input type="submit" value="Search" class="button1">
-                            </div>
+                            <input type="submit" value="Save" class="button1">
+                        </div>
                         <div class="incidentColumn">
-                            
+
                             <div class="formitem colTitle">
                                 <label>Customer details</label>
                             </div>
@@ -60,7 +57,7 @@
                             </div>
                         </div>
                         <div class="incidentColumn">
-                            
+
                             <div class="formitem colTitle">
                                 <label>Customer location</label>
                             </div>
@@ -111,21 +108,29 @@
                             </div>
                         </div>
                     </form>
+                    <div class="worklog">
+                        
+                        <div class="table">
+                            [Results]
+                            <table>
+                                <tr>
+                                    <td>data</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="modify-buttons">
+                    <button value="">Send Email</button>
+                    <button value="">Add worklog</button>
+                    </div>
+                    </div>
                 </div>
-            <div class="table">
-                [Results]
-                <table>
-                    <tr>
-                        <td>data</td>
-                    </tr>
-                </table>
+
+
             </div>
-            
-        
+
+
         </div>
 
-        
-    </div>
-        
     </body>
 </html>

@@ -21,7 +21,7 @@
                <h1>CornerStone</h1>
                 <div id="loginBox">
                     <div id="form-header">Login</div>
-                    <form action="home.jsp" method="post">
+                    <form action="login" method="post">
                         <label for="username">Username
                             <input type="text" name="username">
                         </label>
