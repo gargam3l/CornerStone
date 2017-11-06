@@ -74,6 +74,12 @@ public class ControllerServlet extends HttpServlet {
         {
             path="userAdmin";
         }
+        
+        else if(path.equals("/login"))
+        {
+            path="home";
+        }
+        
         if (isInViewFolder){url="/WEB-INF/view/"+path+".jsp";}
         try{
             request.getRequestDispatcher(url).forward(request, response);
