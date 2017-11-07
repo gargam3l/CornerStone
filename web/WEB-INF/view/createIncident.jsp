@@ -18,14 +18,14 @@
 
             <div id="indexLeftColumn">
                 <ul class="verticalMenu">
-                    <li><a  href="login">Home</a></li>
-                    <li><a class="active" href="incident?page=create">Create Incident</a></li>
-                    <li><a  href="incident?page=search">Search Incident</a></li>
+                    <li><a  href="Login">Home</a></li>
+                    <li><a class="active" href="Incident?page=create">Create Incident</a></li>
+                    <li><a  href="Incident?page=search">Search Incident</a></li>
                     <li id="admin"><a href="#">Admin</a>
                     
                         <ul class="hoverdown-content collapsed">
-                            <li><a href="userAdmin">User management</a></li>
-                            <li><a  href="customerAdmin">Customer management</a></li>
+                            <li><a href="UserAdmin">User management</a></li>
+                            <li><a  href="CustomerAdmin">Customer management</a></li>
                         </ul>
                     
                         </li>

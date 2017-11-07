@@ -20,7 +20,7 @@
             <div class="ribbon">
                 <div class="text">Logged in as: John Doe</div>
                 <div class="button">
-                    <form action="signOut" method="get">
+                    <form action="SignOut" method="get">
                     <input type="submit" value="Sign out">
                     </form>
                 </div>
